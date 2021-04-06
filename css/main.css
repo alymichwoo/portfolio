@@ -7,25 +7,26 @@ body {
 
 h2 {
   font-family: 'Libre Baskerville', serif;
-  font-size: 30pt;
+  font-size: 36pt;
+  font-weight: bold;
   text-align: center;
 }
 
 #about {
   background-color: #ff654a;
   color: #fff;
-  height: 650px;
+  height: 1050px;
+  text-align: center;
 }
 
 #portfolio {
-  height: 650px;
-  text-align: center;
+  height: 850px;
 }
 
 #contact {
   background-color: #ff654a;
   color: #fff;
-  height: 475px;
+  height: 650px;
   text-align: center;
 }
 
@@ -33,6 +34,7 @@ h2 {
 .full-width {
   margin: 0 auto;
   width: 1200px;
+  overflow: auto;
 }
 
 .half-width {
@@ -62,7 +64,7 @@ nav ul li {
 nav ul li a {
   color: #313131;
   font-weight: bold;
-  padding-right: 10px;
+  margin-left: 25px;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -70,8 +72,7 @@ nav ul li a {
 header h1 {
   clear: both;
   font-family: 'Libre Baskerville', serif;
-  font-size: 55pt;
-  font-weight: bold;
+  font-size: 58pt;
   line-height: 75px;
   padding-top: 80px;
   width: 800px;
@@ -89,7 +90,8 @@ header h1 span {
 
 /********** ABOUT **********/
 #about .full-width {
-  padding: 50px 0;
+  width: 600px;
+  padding: 170px 0;
 }
 
 #about .half-width {
@@ -98,7 +100,8 @@ header h1 span {
 
 #about img {
   border: 5px solid #fff;
-  margin-left: 75px;
+  display: block;
+  margin: 0 auto;
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
@@ -110,26 +113,32 @@ header h1 span {
 
 /********** PORTFOLIO **********/
 #portfolio .full-width {
-  padding: 50px 0;
+  padding: 180px 0;
+}
+
+#portfolio h2 {
+  margin-bottom: 110px;
 }
 
 #portfolio img {
   border: 1px solid #313131;
   height: 220px;
   width: 350px;
-}
-
-#portfolio .third-width {
-  padding: 80px 0;
+  display: block;
+  margin: 0 auto;
 }
 
 #portfolio span {
   font-weight: bold;
 }
 
+#portfolio p {
+  text-align: center;
+}
+
 /********** CONTACT **********/
 #contact .full-width {
-  padding: 50px;
+  padding: 110px 0;
 }
 
 #contact span {
